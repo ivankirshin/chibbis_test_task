@@ -63,7 +63,7 @@ export default class Restaurants extends Vue {}
     flex: 1;
   }
 
-  &__section {
+  &__section:not(:last-child) {
     margin-bottom: 20px;
   }
 }
