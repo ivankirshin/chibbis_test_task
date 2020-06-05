@@ -1,0 +1,23 @@
+@import '~assets/fonts/inter/inter.css';
+
+html {
+  font-size: 62.5%; // for using REM units. 1rem = 10px
+
+  @media (max-width: $screen-md-max) {
+    font-size: 56.25%;
+  }
+
+  @media (max-width: $screen-xs-max) {
+    font-size: 50%;
+  }
+}
+
+body {
+  color: $color-default;
+  font-weight: $weight-medium;
+  font-size: 1.6rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
