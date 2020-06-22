@@ -1,6 +1,6 @@
 import makeRequest from '~/api/makeRequest';
 import Review from '~/models/Review';
-import { Nullable } from '~/types/utility';
+import { Nullable } from '~/types/utilities';
 
 export const getReviews = async (): Promise<Nullable<Review[]>> => {
   const url = new URL(process.env.chibbisApi + 'reviews');

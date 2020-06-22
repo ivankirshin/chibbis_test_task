@@ -1,4 +1,4 @@
-import { Nullable } from '~/types/utility';
+import { Nullable } from '~/types/utilities';
 import generateId from '~/utils/generateId';
 
 export default class Product {

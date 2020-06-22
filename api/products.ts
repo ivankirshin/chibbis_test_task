@@ -1,6 +1,6 @@
 import makeRequest from '~/api/makeRequest';
 import Product from '~/models/Product';
-import { Nullable } from '~/types/utility';
+import { Nullable } from '~/types/utilities';
 
 export const getHits = async (): Promise<Nullable<Product[]>> => {
   const url = new URL(process.env.chibbisApi + 'hits');

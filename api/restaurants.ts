@@ -1,6 +1,6 @@
 import makeRequest from '~/api/makeRequest';
 import Restaurant from '~/models/Restaurant';
-import { Nullable } from '~/types/utility';
+import { Nullable } from '~/types/utilities';
 
 const parseSpecializations = (data: Array<{ Name: string }>): string[] => data.map(value => value.Name);
 
