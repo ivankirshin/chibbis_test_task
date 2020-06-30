@@ -11,6 +11,7 @@
 </template>
 
 <script>
+console.log(111);
 export default {
   name: 'Header',
 };
