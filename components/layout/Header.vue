@@ -11,6 +11,7 @@
 </template>
 
 <script>
+console.log('bbb 2');
 export default {
   name: 'Header',
 };
