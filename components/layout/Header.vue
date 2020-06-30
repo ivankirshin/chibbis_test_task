@@ -11,7 +11,7 @@
 </template>
 
 <script>
-console.warn('bbb 3');
+console.warn('bbb 4');
 export default {
   name: 'Header',
 };
